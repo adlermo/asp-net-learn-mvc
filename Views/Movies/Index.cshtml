@@ -15,13 +15,13 @@
         <select asp-for="MovieGenre" asp-items="Model.Genres">g
             <option value="">All</option>
         </select>
+
         <select asp-for="ReleaseDate" asp-items="Model.ReleaseDates">
             <option value="">All</option>
         </select>
 
         <label>Title: <input type="text" asp-for="SearchString" /></label>
         <input type="submit" value="Filter" />
-
     </p>
 </form>
 
