@@ -7,6 +7,8 @@ public class MovieGenreViewModel
 {
     public List<Movie>? Movies { get; set; }
     public SelectList? Genres { get; set; }
+    public SelectList? ReleaseDates { get; set; }
     public string? MovieGenre { get; set; }
     public string? SearchString { get; set; }
+    public int? ReleaseDate { get; set; }
 }
